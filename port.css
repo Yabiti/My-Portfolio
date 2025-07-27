@@ -258,3 +258,20 @@ form button:hover {
   background-color: #ff6f91;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .nav-links{
+    display: flex;
+    gap: 10px;
+    font-size: small;
+  }
+  .home{
+    padding: 30px;
+    font-size: 35px;
+  }
+  .my-services{
+    display: flex;
+    font-size: 35px;
+    padding: 30px;
+  }
+}
