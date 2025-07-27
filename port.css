@@ -1,0 +1,155 @@
+
+body {
+  margin: 0;
+  background-color: #0e0e2c;
+  color: white;
+  font-family: sans-serif;
+  
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.home{
+    padding: 90px 220px;
+    line-height: 100px;
+    font-size: 40px;
+    background: linear-gradient(90deg, pink,  #0e0e2c);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+
+}
+
+.pR{
+    font-size: medium;
+    line-height: 30px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: medium;
+    background: linear-gradient(90deg, pink, #0e0e2c);
+    color: white;
+}
+
+.my-services{
+    padding: 10px 220px;
+    line-height: 100px;
+    font-size: 30px;
+    background: linear-gradient(90deg, pink,  #0e0e2c);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+   
+}
+
+.list{
+    border: 1px solid white;
+    width: 600px;
+    margin: 10px 200px;
+    border-radius: 15px;
+}
+
+.pRr{
+    font-size: small;
+    padding: 1px 20px;
+}
+
+.h{
+    padding: 0 70px;
+    font-weight: normal;
+}
+
+.list-middle{
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.list-wrapper {
+    display: grid;
+    gap: 70px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.li-pics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+
+.li-pics li {
+  margin: 0;
+  padding: 0;
+}
+
+.li-pics img {
+  display: block;
+  width: 70px;
+  height: auto;
+  object-fit: cover;
+}
+
+.sk{
+  text-align: center;
+}
+
+.project-list{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.butto a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background: linear-gradient(90deg, pink,  #0e0e2c);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.project-card p{
+  margin-bottom: 30px;
+}
