@@ -274,4 +274,7 @@ form button:hover {
     font-size: 35px;
     padding: 30px;
   }
+  .list{
+    padding: 30px;
+  }
 }
