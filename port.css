@@ -274,7 +274,14 @@ form button:hover {
     font-size: 35px;
     padding: 30px;
   }
+  .list-wrapper{
+    display: grid;
+    justify-content: center;
+  }
   .list{
-    padding: 30px;
+    width: 300px;
+  }
+    .list-middle{
+    width: 300px;
   }
 }
