@@ -284,4 +284,8 @@ form button:hover {
     .list-middle{
     width: 300px;
   }
+  .li-pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
