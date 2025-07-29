@@ -6,6 +6,10 @@ body {
   
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .navbar {
   padding: 1rem 2rem;
 }
@@ -92,6 +96,7 @@ body {
 .pRr{
     font-size: small;
     padding: 1px 20px;
+    line-height: 20px;
 }
 
 .h{
@@ -294,8 +299,8 @@ form button:hover {
     justify-content: center;
   }
   .list{
-    font-size: large;
     width: 300px;
+    height: auto;
   }
     .list-middle{
     width: 300px;
@@ -311,5 +316,9 @@ form button:hover {
   #contact{
     display: grid;
     width: 300px;
+  }
+  .pRr{
+    font-size: 15px;
+    line-height: 20px;
   }
 }
